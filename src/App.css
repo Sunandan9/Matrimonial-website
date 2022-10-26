@@ -1,0 +1,20 @@
+.App {
+  float: none;
+  text-align: center;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+nav{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+main img
+{
+  width: 100%;
+  height: auto;
+}
+

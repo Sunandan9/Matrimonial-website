@@ -1,0 +1,546 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    
+}
+
+.form-section
+{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(90deg, #940f30, #5c1a55);
+    background-size: 100% 100%;
+    color: white;
+}
+.title-section{
+    background-image: url("https://img2.sangam.com/assets/home/HomePage_Marathi.jpg");
+    width: 100%;
+    height: 52vh;
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+}
+.title
+{
+    font-size: 40px;
+    padding-top: 360px;
+}
+.heading{
+    padding-top: 40px;
+    font-size: 22px;
+}
+.explain{
+    font-size: 15px;
+}
+.form-div
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.form
+{
+    background-color:white;
+    height: 220px;
+    width: 900px;
+    border-radius: 5px;
+    color:black;
+    padding: 10px;
+}
+.form .first-row{
+    justify-content: space-around;
+    display: flex;
+    text-align: left;
+}
+.form .first-row  p {
+    font-size: 12px;
+    text-align: left;
+    color: rgb(25, 25, 173);
+}
+.form .first-row .full-name input{
+    border: none;
+    border-bottom: 1px solid rgba(22, 2, 2,0.3);
+    width: 330px;
+    padding: 10px 0px 5px 0px;
+    font-size: 17px;
+    text-align: left;
+}
+.form .first-row .full-name input:focus{
+    outline: none;
+}
+.form .first-row .gender form{
+    width: 300px;
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: left;
+}
+.form .first-row .gender form label{
+    padding: 0px 20px 0px 5px;
+}
+.form .first-row .gender p{
+    padding-left: 0px;
+}
+.form .first-row .gender form label:first-child{
+    font-size: 18px;
+    padding-left: 0px;
+    text-align: left;
+    justify-self: start;
+}
+
+.form .first-row .gender form input{
+    padding-right: 10px;
+}
+
+.form .second-row{
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    text-align: left;
+}
+.form .second-row  p {
+    font-size: 12px;
+    text-align: left;
+    color: rgb(25, 25, 173);
+}
+
+.form .second-row select{
+    border: none;
+    border-bottom: 1px solid rgba(22, 2, 2,0.3);
+    width: 330px;
+    padding: 9px 0px 0px 0px;
+    font-size: 17px;
+    opacity: 0.8;
+    text-align: left;
+    
+}
+.form .second-row select:focus{
+    outline: none;
+}
+.form .second-row select option{
+    height: 20px;
+   
+}
+.form .second-row .form-community{
+    width: 300px;
+}
+
+.form .form-btn{
+    margin-top: 35px;
+    border: none;
+    width: 170px;
+    height:45px;
+    font-size: 16px;
+    background-color: rgb(52, 52, 141);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    word-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.why
+{
+    height: 310px;
+    width: 100%;
+    background-color:white;
+    
+}
+.why-heading
+{
+    padding-top: 35px;
+    font-size: 25px;
+    font-weight: 400;    
+}
+.why-heading-border{
+    width: 50px;
+    border-bottom: 2px solid rgb(143, 11, 11);
+    padding-top: 30px;
+    margin: auto;
+}
+.why-reason-div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto 0px auto;
+}
+.reason{
+    width: 215px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+.trophy{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(120, 197, 96);
+    padding:15px 15px;
+     margin: 5px auto;
+    border-radius: 50%;
+    
+}
+.reason h6{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.reason p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+.handshake{
+        width: 50px;
+        height: 50px;
+        background-color: rgb(96, 165, 197);
+        padding:15px 15px;
+         margin: 5px auto;
+        border-radius: 50%;
+        
+}
+.lock{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(155, 60, 60);
+    padding:15px 15px;
+     margin: 5px auto;
+    border-radius: 50%;
+    
+}
+.check{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(192, 144, 66);
+    padding:15px 15px;
+     margin: 5px auto;
+    border-radius: 50%;
+    
+}
+.about-us
+{
+    height: 280px;
+    width: 100%;
+}
+.about-us .explain-p{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    word-spacing: 3px;
+    font-size: 17px;
+}
+.story
+{
+    width: 100%;
+    height: 470px;
+    background-color: rgb(223, 233, 230);
+}
+.story .heading{
+    color: #940f30;
+    padding-top: 30px;
+}
+.story .card-box{
+    
+    margin: 10px auto 0 auto;
+    height: 380px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.story .card{
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    
+}
+.story .card p{
+    margin: 10px auto 15px auto;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(34, 31, 31);
+} 
+.story .card a{
+    padding: 5px;
+    text-decoration: none;
+    color:#940f30;
+}
+.story .card a:hover{
+    opacity: 0.7;
+}
+
+.community{
+    height: 110px;
+    width: 100%;
+    background: linear-gradient(90deg, #940f30, #5c1a55);
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.community .heading{
+    font-size: 28px;
+}
+.community .btn{
+    font-size: 18px;
+    padding: 5px;
+    margin: auto 0px;
+    height: 38px;
+    width: 200px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer{
+    height: 80px;
+    width:100%;
+    padding: 5px;
+}
+.footer p{
+    margin-top: 5px;
+    font-size: 13px;
+    opacity: 0.9;
+}
+.footer p a{
+    text-decoration: none;
+}
+@media screen and (max-width:1200px) {
+    .title{
+        font-size: 33px;
+    }
+    .form
+{
+    width: 800px;
+}
+.form .form-btn{
+    width: 140px;
+}
+.story .card-box{
+    
+    margin: 10px auto 0 auto;
+    height: 350px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.story .card{
+    height: 250px;
+    width: 250px;
+    margin-top: 40px;
+    
+}
+
+
+.story .card p{
+    margin: 10px auto 15px auto;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(34, 31, 31);
+}
+
+.about-us
+{
+    height: 320px;
+    width: 100%;
+}
+
+    
+}
+
+
+
+
+
+@media screen and (max-width:990px) {
+    .title{
+        font-size: 25px;
+    }
+    .heading{
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .explain{
+        font-size: 13px;
+    }
+ 
+    .form
+{
+    width: 650px;
+}
+.form .form-btn{
+    width: 120px;
+}
+.form .first-row .full-name input{
+    width: 280px;  
+}
+
+.form .first-row .gender form{
+    width: 280px;
+}
+
+.form .second-row select{
+    width: 280px;
+    
+}
+
+.form .second-row .form-community{
+    width: 280px;
+}
+
+.why-reason-div{
+    width: 90%;
+}
+.reason{
+    width: 210px;
+    height: 160px;
+}
+.reason p{
+    font-size: 16px;
+}
+.story .card-box{
+    
+    
+    height: 330px; 
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.story .card{
+     height: 200px;
+    width: 200px;
+    margin-top: 40px; 
+    
+}
+
+.about-us
+{
+    height: 350px;
+    width: 100%;
+}
+
+
+
+    
+}
+
+@media screen and (max-width:770px) {
+    .title{
+        font-size: 18px;
+    }
+    .form
+{
+    width: 450px;
+    height: 380px;
+}
+.form-section
+{
+    height: 550px;
+}
+.form .first-row{
+     justify-content:flex-start; 
+    flex-direction: column;
+}
+
+.form .second-row{
+    margin-top: 0px;
+    flex-direction: column;
+     justify-content: flex-start; 
+}
+.form .form-btn{
+    width: 130px;
+    margin-top: 15px;
+}
+.form .first-row .full-name input{
+    margin-bottom: 20px;
+    width: 400px;  
+    padding-left: 0px;
+    
+}
+
+.form .first-row .gender form{
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.form .second-row select{
+    margin-bottom: 20px;
+    width: 400px;
+    
+}
+    
+.why-reason-div{
+    width: 100%;
+}
+.why
+{
+    height: 330px;  
+}
+.reason{
+    width: 210px;
+    height: 170px;
+}
+.reason p{
+    font-size: 16px;
+}
+.story
+{
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(223, 233, 230);
+}
+
+.story .card-box{
+    
+    margin: 100px auto 0 auto;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.story .card{
+    height: 300px;
+    width: 300px;
+    margin: 40px auto 0px auto;
+    
+}
+
+
+.story .card p{
+    margin: 10px auto 15px auto;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(34, 31, 31);
+}
+
+.story .heading{
+    color: #940f30;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.about-us
+{
+    height: 460px;
+    width: 100%;
+}
+
+
+
+}
